@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank App</title>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div id="app">Loading...</div>
+
+    <!-- <template id="login"> -->
+
+        <!-- The id attribute is used to uniquely identify an HTML element, while the class attribute is used to group elements that
+        share common styles. In templates, id attributes are commonly used to identify specific elements to apply JavaScript or
+        CSS to, while classes can be used to apply styles to multiple elements.
+        
+        It is possible to use classes instead of ids, but the id is generally considered a better choice for templates because
+        it has a higher specificity, meaning that it will take precedence over any styles defined for the same element with a
+        class. However, this decision ultimately depends on the specific requirements of the template and the development team's
+        coding conventions. -->
+
+        <h1>Bank App</h1>
+        <section>
+            <a href="/dashboard" onclick="onLinkClick(event)">Login</a>
+        </section>
+    <!-- </template> -->
+
+    <!-- <template id="dashboard"> -->
+        <header>
+            <h1>Bank App</h1>
+            <a href="/login" onclick="onLinkClick(event)">Logout</a>
+            
+        </header>
+        <section>
+            Balance: 100$
+        </section>
+        <section>
+            <h2>Transactions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Object</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    <!-- </template> -->
+</body>
+
+</html>
