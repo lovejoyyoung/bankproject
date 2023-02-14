@@ -54,7 +54,7 @@ async function register() {
 
 async function createAccount(account) {
     try {
-        const response = await fetch('//localhost:5000/api/accounts', {
+        const response = await fetch('CREATE_ACCOUNT_ACCOUNT', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: account
@@ -67,7 +67,7 @@ async function createAccount(account) {
 
 async function getAccount(user) {
     try {
-        const response = await fetch('//localhost:5000/api/accounts/' + encodeURIComponent(user));
+        const response = await fetch('GET_ACCOUNT_USER' + encodeURIComponent(user));
         return await response.json();
     } catch (error) {
         return { error: error.message || 'Unknown error' };
