@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../feature2-forms"
+		},
+		{
+			"path": "../feature3-data"
+		},
+		{
+			"path": "../feature1-template-route"
+		}
+	]
+}
