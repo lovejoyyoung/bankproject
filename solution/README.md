@@ -8,6 +8,14 @@ First make sure you have the [API server](../api/README.md) running.
 
 Any web server can be used to run the app, but since you should have [Node.js](https://nodejs.org) installed anyway to run the API, you can:
 
+
+////////////////////////////////
+Run Backend Server
+
 1. Git clone this repo.
 2. Open a terminal, navigate to this directory, then run `npx lite-server .`. It will start a development web server on port `3000`
 3. Open `http://localhost:3000` in a browser to run the app.
+
+1. cd brankproject/api
+2. Run `npm start` for running server.js
+3. See server listening on port 5000
